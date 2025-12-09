@@ -7,43 +7,16 @@ const projects = [
     title: "Hairstyle Morphling",
     description:
       "An AI system that transforms user photos into multiple hairstyles and styles, maintaining consistency across morphs.",
-    thumbnail: "/thumbnails/hairstyle-morphling.jpg",
+    thumbnail: "/thumbnails/hairstyle-morphling.png",
     link: "/projects/hairstyle-morphling",
   },
-  {
-    title: "Render Re Imagined",
-    description:
-      "A creative re-rendering pipeline turning ordinary input images into stylistically reimagined visuals.",
-    thumbnail: "/thumbnails/render-reimagined.jpg",
-    link: "/projects/render-reimagined",
-  },
-  {
-    title: "Your Sticker",
-    description:
-      "A character-extraction system that transforms humans or pets into cohesive, themed sticker packs.",
-    thumbnail: "/thumbnails/your-sticker.jpg",
-    link: "/projects/your-sticker",
-  },
-  {
-    title: "Interactive Particle Effects",
-    description:
-      "Real-time particle systems powered by shaders and generative rules for web-based interactive experiences.",
-    thumbnail: "/thumbnails/interactive-particles.jpg",
-    link: "/projects/interactive-particles",
-  },
-  {
-    title: "Embodiment",
-    description:
-      "An exploration of identity through AI-driven body transformations and character-based self-portraits.",
-    thumbnail: "/thumbnails/embodiment.jpg",
-    link: "/projects/embodiment",
-  },
+  // You can add the others once their images are saved in public/thumbnails:
+  // render-reimagined.png, your-sticker.png, interactive-particles.png, embodiment.png
 ];
 
 export default function Home() {
   return (
     <div className="min-h-screen bg-neutral-100 text-neutral-900">
-      {/* Header */}
       <header className="px-10 py-16">
         <h1 className="text-4xl font-semibold tracking-tight">
           Heran Zhou
@@ -54,7 +27,6 @@ export default function Home() {
         </p>
       </header>
 
-      {/* Project Grid */}
       <section className="px-10 pb-20">
         <h2 className="text-2xl font-medium mb-6">Selected Work</h2>
 
